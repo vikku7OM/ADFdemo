@@ -1,0 +1,20 @@
+{
+	"name": "input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragelinked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data.txt",
+				"folderPath": "input",
+				"container": "adfdemo"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "shiviadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "69de7128-4295-4f81-89ba-e70358c3018e",
+		"tenantId": "5381e7c7-120b-4759-a0bd-98e63b3a96ae"
+	}
+}
